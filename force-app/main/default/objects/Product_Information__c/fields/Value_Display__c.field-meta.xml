@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_Display__c</fullName>
+    <description>This field is generated automatically based on the values added</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+   RecordType.Name = &quot;Fee&quot;,
+   IF(
+      Value_Percent__c = 0, 
+      &quot;Free&quot;, 
+      TEXT(Value_Percent__c*100) &amp; &quot;%&quot;),
+
+   IF(
+      Not_Applicable__c, 
+      &quot;N/a&quot;,
+      IF(
+         Value_Number__c-FLOOR(Value_Number__c)=0,
+         Currency_Symbol__c &amp; &quot; &quot; &amp; SUBSTITUTE(TEXT( ROUND(Value_Number__c, 2)),&quot;.&quot;,&quot;,&quot;),
+         Currency_Symbol__c &amp; &quot; &quot; &amp; SUBSTITUTE(TEXT(FLOOR(Value_Number__c)) &amp; &quot;.&quot; &amp; LPAD(TEXT((Value_Number__c - FLOOR(Value_Number__c)) * 100), 2, &quot;0&quot;),&quot;.&quot;,&quot;,&quot;)
+         )
+   )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field is generated automatically based on the values added</inlineHelpText>
+    <label>Value Display</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

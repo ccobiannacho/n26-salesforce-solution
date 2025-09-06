@@ -1,0 +1,39 @@
+<template>
+    <article class="slds-card slds-m-around_medium">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="standard:product" alternative-text="Product Information" size="small"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <span>Contact Product Information</span>
+                    </h2>
+                </div>
+            </header>
+        </div>
+
+        <div class="slds-card__body slds-card__body_inner">
+
+            <!-- if error -->
+            <template if:true={error}>
+                <div class="slds-text-color_error slds-m-around_medium">
+                    <lightning-formatted-text value={error}></lightning-formatted-text>
+                </div>
+            </template>
+             <!-- else -->
+            <template if:false={error}>
+                <template if:true={data}>
+                    <!-- we display the data dynamically -->
+                    <lightning-datatable
+                        key-field="id"
+                        data={data}
+                        columns={columns}
+                        hide-checkbox-column="true"
+                        resize-column-disabled="true">
+                    </lightning-datatable>
+                </template>
+            </template>
+        </div>
+    </article>
+</template>

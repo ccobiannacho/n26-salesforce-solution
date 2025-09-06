@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>APIRestGetContactInfo_ContactNotFoundError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>APIRestGetContactInfo_ContactNotFoundError</shortDescription>
+        <value>Contact not found</value>
+    </labels>
+    <labels>
+        <fullName>APIRestGetContactInfo_NoProdInfoError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>APIRestGetContactInfo_NoProdInfoError</shortDescription>
+        <value>No Product Information found for this Contact</value>
+    </labels>
+    <labels>
+        <fullName>APIRestGetContactInfo_NotAllowedError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>APIRestGetContactInfo_NotAllowedError</shortDescription>
+        <value>User not allowed to consume this integration</value>
+    </labels>
+    <labels>
+        <fullName>DisplayContactProdInfCaseController_NoContactError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayContactProdInfCaseController_NoContactError</shortDescription>
+        <value>This case has no contact linked</value>
+    </labels>
+    <labels>
+        <fullName>DisplayContactProdInfCaseController_NoIdError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayContactProdInfCaseController_NoIdError</shortDescription>
+        <value>No case found with this Id</value>
+    </labels>
+    <labels>
+        <fullName>DisplayContactProdInfCaseController_NoProdCountryError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayContactProdInfCaseController_NoProdCountryError</shortDescription>
+        <value>The related Contact has no Product or Home Country</value>
+    </labels>
+    <labels>
+        <fullName>DisplayContactProdInfCaseController_NoProdInfError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayContactProdInfCaseController_NoProdInfError</shortDescription>
+        <value>No Product Information found for this Contact</value>
+    </labels>
+    <labels>
+        <fullName>ProductInformationTriggerHandler_ProdInfAddedError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ProductInformationTriggerHandler_ProdInfAddedError</shortDescription>
+        <value>Product Information has just been added in this transaction with that Home Country, Product &amp; Type.</value>
+    </labels>
+    <labels>
+        <fullName>ProductInformationTriggerHandler_ProdInfExistsError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ProductInformationTriggerHandler_ProdInfExistsError</shortDescription>
+        <value>Product Information already exists for that: Home Country, Product &amp; Type:</value>
+    </labels>
+</CustomLabels>

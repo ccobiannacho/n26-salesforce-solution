@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>API_Integration_User__mdt</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>API_Get_Contact_Information</members>
+        <members>Edit_Product_Information</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>N26 API User</members>
+        <members>Customer Service</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>APIRestGetContactInfo</members>
+        <members>APIRestGetContactInfoTest</members>
+        <members>DisplayContactProdInfCaseController</members>
+        <members>DisplayContactProdInfCaseControllerTest</members>
+        <members>ProductInformationTriggerHandler</members>
+        <members>ProductInformationTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>ProductInformationTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    
+    <types>
+        <members>N26_API_Integration</members>
+        <name>ConnectedApp</name>
+    </types>
+
+    <types>
+        <members>N26</members>
+        <name>CustomApplication</name>
+    </types>
+
+
+    <types>
+        <members>N26</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Flexipage</name>
+    </types>
+
+    <types>
+        <members>Product_Information__c</members>
+        <members>Country__c</members>
+        <members>Charge_Type__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>contact.Home_Country__c</members>
+        <members>contact.Product__c</members>
+        <members>contact.UUID__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+
+
+    <types>
+        <members>APIRestGetContactInfo_NotAllowedError</members>
+        <members>APIRestGetContactInfo_ContactNotFoundError</members>
+        <members>APIRestGetContactInfo_NoProdInfoError</members>
+        <members>ProductInformationTriggerHandler_ProdInfExistsError</members>
+        <members>ProductInformationTriggerHandler_ProdInfAddedError</members>
+        <members>DisplayContactProdInfCaseController_NoIdError</members>
+        <members>DisplayContactProdInfCaseController_NoContactError</members>
+        <members>DisplayContactProdInfCaseController_NoProdCountryError</members>
+        <members>DisplayContactProdInfCaseController_NoProdInfError</members>
+        <name>CustomLabel</name>
+    </types>
+
+
+ 
+    <version>64.0</version>
+</Package>

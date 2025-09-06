@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_per_Calendar_Month</fullName>
+    <columns>NAME</columns>
+    <columns>Product__c</columns>
+    <columns>Home_Country__c</columns>
+    <columns>Value_Display__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Charge_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Cost per Calendar Month</value>
+    </filters>
+    <label>Cost per Calendar Month</label>
+</ListView>

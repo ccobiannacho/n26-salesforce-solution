@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_Mandatory_Fields_Selected</fullName>
+    <active>true</active>
+    <description>Validation rule used to ensure the Charge Type, Home Country and Product are added</description>
+    <errorConditionFormula>OR(
+ISBLANK( Home_Country__c ), 
+ISBLANK( Product__c ), 
+ISBLANK( Type__c )
+)</errorConditionFormula>
+    <errorMessage>You must ensure the following fields are added: Home Country, Product and Type</errorMessage>
+</ValidationRule>

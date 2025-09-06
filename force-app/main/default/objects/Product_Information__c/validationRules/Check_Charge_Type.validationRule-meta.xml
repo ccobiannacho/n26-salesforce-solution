@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Charge_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>Type__r.RecordType.Name !=  RecordType.Name</errorConditionFormula>
+    <errorMessage>Charge type record type selected must be same type as the record type of the product information.</errorMessage>
+</ValidationRule>
