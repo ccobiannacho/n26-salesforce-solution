@@ -6,9 +6,9 @@ This repository provides insight on the solution of the Case Study for the Sales
 
 In the DOCUMENTS_README folder you will find the documentation of the project:
 
-  API_Interface_Agreement, it gives the details of the API.
-  N26_Solution, explanation of the solution.
-  Salesforce_Technical_Document, the technical document.
+API_Interface_Agreement, it gives the details of the API.
+N26_Solution, explanation of the solution.
+Salesforce_Technical_Document, the technical document.
 
 ## Author
 
